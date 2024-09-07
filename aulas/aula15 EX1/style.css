@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+section {
+  max-width: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-color: #ebebeb;
+}
+#foto {
+  overflow: hidden;
+}
+#imagem {
+  object-fit: cover;
+}
