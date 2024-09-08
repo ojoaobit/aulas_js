@@ -10,7 +10,9 @@ function verificar() {
     var formSexo = document.getElementsByName("radiosexo");
     var idade = ano - Number(formAno.value);
     var genero = "";
+    // cria varuavel e cria elemento de dentro, no caso img
     var img = document.createElement("img");
+    // adiciona atributo nesse elemento img, no caso adiciona id e o nome do id
     img.setAttribute("id", "foto");
     img.style.margin = "20px 0";
     img.style.width = "200px";
@@ -44,6 +46,7 @@ function verificar() {
 
     resultado.style.textAlign = "center";
     resultado.innerHTML = `Detectamos ${genero} com ${idade} anos.`;
+    //var resultado e cria um child (img) nessa variavel resultado
     resultado.appendChild(img);
   }
 }
